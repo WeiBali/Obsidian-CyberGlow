@@ -3455,7 +3455,6 @@ a,
 .internal-link,
 .cm-hmd-internal-link,
 .cm-link {
-	text-decoration: none !important;
 	z-index: 1;
 }
 
@@ -3482,7 +3481,6 @@ a,
 .internal-link,
 .cm-hmd-internal-link,
 .cm-link {
-	text-decoration: none !important;
 	z-index: 1;
 }
 
