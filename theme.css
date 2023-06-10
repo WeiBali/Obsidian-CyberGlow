@@ -3437,7 +3437,7 @@ body:not(.CG-OG-hr, .CG-Hyrule-hr, .CG-Apple-hr, .CG-Pokeball-hr, .CG-Windows-hr
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 5px 5px;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .cm-s-obsidian span.cm-link {
