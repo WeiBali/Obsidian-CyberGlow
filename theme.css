@@ -3429,6 +3429,7 @@ body:not(.CG-OG-hr, .CG-Hyrule-hr, .CG-Apple-hr, .CG-Pokeball-hr, .CG-Windows-hr
 * Links Styling: Editors ✅
 *-------------------------*/
 
+
 .cm-s-obsidian span.cm-link,
 .cm-s-obsidian span.cm-hmd-internal-link {
 	text-shadow: -1px -1px 2px var(--background-secondary), -1px 1px 2px var(--background-secondary),
@@ -3450,12 +3451,14 @@ body:not(.CG-OG-hr, .CG-Hyrule-hr, .CG-Apple-hr, .CG-Pokeball-hr, .CG-Windows-hr
 	background-image: linear-gradient(to bottom, var(--internal-link-hover) 0%, var(--internal-link-hover) 0%);
 }
 
+
 /* link */
 a,
 .internal-link,
 .cm-hmd-internal-link,
 .cm-link {
 	z-index: 1;
+    text-decoration: none !important;
 }
 
 .cm-url {
@@ -3474,7 +3477,6 @@ a:hover,
 .internal-link:hover {
 	text-decoration: none !important;
 	/* link */
-
 }
 
 a,
@@ -3528,7 +3530,7 @@ a.internal-link {
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	background-size: 5px 5px;
-	text-decoration: none;
+	text-decoration: none !important;
 	transition: all 350ms ease;
 }
 
@@ -3544,7 +3546,6 @@ a.internal-link {
 }
 
 .internal-link:hover {
-
 	background-size: 4px 50px;
 	box-shadow: 0 0 20px var(--internal-link-hover);
 	color: darkorange !important;
