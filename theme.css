@@ -394,8 +394,8 @@ settings:
 * Light Mode: Link Colors 
 *------------------------------------------*/
 
-	--outgoing-link-hover: rgba(244, 86, 157, 0.55);
-	--internal-link-hover: rgba(14, 210, 247, 0.55);
+	--outgoing-link-hover: rgba(0, 0, 0, 0.55);
+	--internal-link-hover: rgba(0, 0, 0, 0.55);
 
 	/*------------------------------
 * Light Mode: Headers Colors 
