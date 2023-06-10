@@ -3475,7 +3475,8 @@ a,
 /* link hover color */
 a:hover,
 .internal-link:hover {
-	text-decoration: none !important;
+
+}
 	/* link */
 }
 
@@ -3500,7 +3501,6 @@ a,
 /* link hover color */
 a:hover,
 .internal-link:hover {
-	text-decoration: none !important;
 	color: darkorange;
 }
 
